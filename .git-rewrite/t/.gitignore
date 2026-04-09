@@ -1,0 +1,32 @@
+node_modules
+.env
+dist
+pnpm-lock.yaml
+coverage
+.pnpm-store
+.DS_Store
+**/.DS_Store
+apps/macos/.build/
+apps/shared/ClawdisKit/.build/
+bin/clawdis-mac
+apps/macos/.build-local/
+apps/macos/.swiftpm/
+Core/
+apps/ios/*.xcodeproj/
+apps/ios/*.xcworkspace/
+apps/ios/.swiftpm/
+
+# fastlane (iOS)
+apps/ios/fastlane/README.md
+apps/ios/fastlane/report.xml
+apps/ios/fastlane/Preview.html
+apps/ios/fastlane/screenshots/
+apps/ios/fastlane/test_output/
+apps/ios/fastlane/logs/
+
+# fastlane build artifacts (local)
+apps/ios/*.ipa
+apps/ios/*.dSYM.zip
+
+# provisioning profiles (local)
+apps/ios/*.mobileprovision

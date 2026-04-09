@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - '@whiskeysockets/baileys'
+  - esbuild
+  - sharp

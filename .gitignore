@@ -1,0 +1,11 @@
+alice-e.vrm
+node_modules/
+dist/
+dist-runtime/
+.env
+.env.local
+*.session
+*.session-journal
+__pycache__/
+*.pyc
+.DS_Store
