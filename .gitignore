@@ -9,3 +9,4 @@ dist-runtime/
 __pycache__/
 *.pyc
 .DS_Store
+.git-rewrite/
